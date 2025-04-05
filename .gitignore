@@ -194,3 +194,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Stop key going up to github to keep private
+config.py

@@ -12,7 +12,17 @@ I start by importing the necessary libraries - requests for making HTTP requests
 
 assignment 3 CSO
 
-The script usees the requests library to send an STTP GET request to a specific URL. When the response from the API is received, the respons.json method is used to parse the JSON data into a Python data structure. Ths script use the status codes to check if the API response was successful. The 200 status code indicates that it was successful, the other status codes generally indicate an error has occured. If the data has been retrieved successfully, the script writes the data to a file using Python's json.dump(method). This stores the data in a local file for future use.
+The script usees the requests library to send an HTTP GET request to a specific URL. When the response from the API is received, the respons.json method is used to parse the JSON data into a Python data structure. Ths script use the status codes to check if the API response was successful. The 200 status code indicates that it was successful, the other status codes generally indicate an error has occured. If the data has been retrieved successfully, the script writes the data to a file using Python's json.dump(method). This stores the data in a local file for future use.
 The script opens a file cso.json and writes to is using with open()
 
 I start by importing the libraries needed , requests and json. I define the url, this is the API CSO endpoint from which I want to retrieve the data. I send a GET request to the URL to retrieve the data from the server. Using response.jsp I parse the response content into a Python dictionary. I check if the response code is successful using the response.status code. If this is 200, then I save the data to a JSON file. Using open("cso.json", "w"), it opens a file named cso.json in write mode, if the file does not exist, it will be created. If the status code is not 200 , it will return a message to say it failed to retrieve the data.
+
+assignment 4 github
+This script automates the process of fetching a file from a GitHub repository, performisng a text replacement within that file, and then updating the modified file back to the repository. The script uses the PyGithub library to interact with the GitHub API and the requests library to download the file content.
+
+I import the necessary libraries - PyGithub, Requests and a Github API key configured in a file config.py. 
+The script fetches the file andrew.txt from the specified GitHub repository. It performs a search-and-replace operation, replacing occurrences of a target word ("Andrew") with a new word ("Grainne"). The modified content is then committed back to the repository with a commit message.
+
+
+
+https://www.tutorialspoint.com/How-to-search-and-replace-text-in-a-file-using-Python
