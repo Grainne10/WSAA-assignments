@@ -15,7 +15,8 @@ I work at [TE Connectivity] (https://www.te.com/usa-en/home.html)
 
 I am a student at the [Atlantic Technological University] (https://www.atu.ie/), Galway, studying the Higher Diploma in Science in Data Analytics on a part-time basis over 2 years.    
 
-This repository contains weekly assignments completed as part of the Web Services and Applications module. Each notebook or file demonstrates various Python programming techniques, data analysis approaches, and problem-solving strategies. It describes the weekly assignments and explains how I solved them and what research I did.    
+This repository contains a collection of weekly assignments completed for the Web Services and Applications module. Each notebook or script demonstrates the use of Python for interacting  with web API's, handling data in real time and automation of web-based tasks. The files demonstrate programming techniques such as HTTP requests, JSON parsing, file handling and working with libraries like requests and PyGithub. In this read me, I document the weekly assignments with an explanation of the task, the approach I took to solve it and relevant research. 
+Additionally, I completed two online assessments, which test what I have learned during the course. These assessments provide insight into my understanding of web services , API intergration and Python development. 
 
 
 ## Tasks   
@@ -58,7 +59,7 @@ To review the dependencies please review the requirements.txt file.
 * [Import Requests](https://realpython.com/python-requests/) - This explains how to to import and get requests.  
 * [Display Picture](https://www.reddit.com/r/learnpython/comments/coho06/displaying_picture_from_api_in_jupyter_notebook) - This shows you how to import an image from an api.  
 * [Response Statements](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) - Understanding what the response statements mean.  
-* [Json] (https://www.w3schools.com/js/js_json_intro.asp) - Tutorials on json.  
+* [JSON](https://www.w3schools.com/js/js_json_intro.asp) - Tutorials on json.  
 * [API's](https://www.geeksforgeeks.org/a-comprehensive-guide-to-api-development/) - Explaining and Learning API's.   
 * [Postman](https://www.youtube.com/watch?v=wEOLZq-7DYs) - Learn how to use Postman.   
 * [Curl](https://www.roborabbit.com/blog/how-to-use-curl-in-python-with-examples/) - Using Curl in Python to send http requests.  
