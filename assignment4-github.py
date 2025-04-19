@@ -47,4 +47,5 @@ gitHubResponse=repo.update_file(fileInfo.path,"updated by prog", updated_content
 
 print (gitHubResponse)
 
-# You can check the file on the repository, I have added Andrew Beatty as a collaborator on the "Grainne10/aprivateone" so that Andrew can view the file after updating and can test.
+# Please note:
+# You can check the file on the repository, I have added Andrew Beatty as a collaborator on the "Grainne10/aprivateone" so that Andrew can view the file I updated and can test for himself.

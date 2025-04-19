@@ -1,0 +1,15 @@
+Requirements
+Python Version:
+Python 3.12.4
+Libraries/Modules:
+iPython
+requests
+PyGithub
+
+
+
+
+
+
+
+
